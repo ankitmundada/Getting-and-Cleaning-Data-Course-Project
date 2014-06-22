@@ -1,0 +1,34 @@
+Assumptions:
+mean features and standerd deviation features are the features that contain "mean()" and "std()" expressions in them.
+
+
+Note: My script creates two Tidy datasets as asked in the course instructions. 
+1st one is the labelled dataset which contains merged data.frames for Test and Train.
+2nd one contains further processed 1st data.frame to give average values of the Activities for each Subject.
+
+Processes done on features.txt are:
+
+Subsetted to give new vector called indices which give indices for the mean() and std() values.
+Subsetted using grep() function.
+
+Processes done on X_train.txt are:
+Subsetted using indices as the column conditioners.
+
+Creation of traindata and its meaning:
+Traindata is the dataset which is the merging of overall train subjects' data arranged properly 
+with their activities using cbind() function on X_train, y_train and subjects_train.
+
+
+Similar processings have been done over the X_test, y_test and subjects_test and then its merged with 
+traindata to finally give "tidydataset1.txt".
+
+Creation of tidydataset2.txt:
+
+tidydataset1.txt is actually subsetted twice using a nested for loop structure to get the mean of variables 
+for each varable of each subject.
+
+
+
+Thank you for reading through this Codebook. I hope it helps!
+Cheers!
+

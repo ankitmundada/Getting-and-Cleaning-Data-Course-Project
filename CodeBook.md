@@ -29,6 +29,8 @@ for each varable of each subject.
 
 
 7.Varibles: 66 variables which describe mean() of varios parameters and std() of various parameters.
+
+
 8.Activities: WALKIN, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, STANDING, SITTING, LAYING.
 
 
